@@ -2,4 +2,4 @@
 
 Install me
 
-  pip3 install git+https://github.com/belonesox/screencast-recorder.git#egg=screencast-recorder
+  sudo pip3 install --upgrade git+https://github.com/belonesox/screencast_recorder.git#egg=screencast-recorder

@@ -15,5 +15,8 @@ setup(
     version='0.01',
     packages=['screencast_recorder'],
     author_email = "stanislav.fomin@gmail.com",
+    install_requires=[
+        'python-xlib'
+    ],
 )
 
