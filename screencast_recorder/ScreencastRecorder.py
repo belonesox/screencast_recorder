@@ -7,6 +7,7 @@
   trying extract creation time,
   and append this time info to
 """
+from __future__ import print_function
 import sys
 import os
 import optparse
@@ -49,7 +50,7 @@ class ScreenCastMe(object):
         Main entry point.
         Process command line options, call appropriate logic.
         """
-        print ' '.join(['"' + arg + '"' for arg in sys.argv])
+        print(' '.join(['"' + arg + '"' for arg in sys.argv]))
 
         #if len(sys.argv) < 2:
         #    print "Please, specify source directory"
@@ -67,7 +68,7 @@ class ScreenCastMe(object):
                    ' -f flv '
                    + screenpath)
         
-            print scmd
+            print(scmd)
             os.system(scmd)
 
 
